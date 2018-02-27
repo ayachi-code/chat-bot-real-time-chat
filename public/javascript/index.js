@@ -44,6 +44,6 @@ let de_invoer = addEventListener("keyup",(event) => {
 
             console.log(input_waarden)
             input_waarden = document.getElementById("de_invoer").value = "";
-            
+
     }
 });

@@ -7,6 +7,17 @@
 + set *
 - <set vandaag_datum=<star>>
 
++ ik heet *
+- <set naam=<star>> oke leuk om je te ontmoeten <get naam>
+
++ hoe heet ik
+* <get naam> == undefined => hey we hebben elkaar nooit voorgesteld, trouwens ik heet bilal en jij
+- hey jij heet <get naam> he ;)
+
+
++ *
+% hey we hebben elkaar nooit voorgesteld trouwens ik heet bilal en jij
+- <set naam=<star>> oke leuk om je te ontmoeten <get naam>
 
 + *
 - Sorry ik begrijp niet presies wat u bedoelt
@@ -61,7 +72,7 @@
 + mooie website
 - Bedankt !
 
-+ [*] hoe is het [*]
++ [*] hoe * het [*]
 - Het gaat hartstike goed met mij
 
 
@@ -84,7 +95,7 @@
 
 
 + help
-- Je kan de bot vragen als de server online is van chat-bilal.Vragen waar de code van dit allemaal staat.Je kan een problem vertellen tegen de chat-bot en misschien komen jullie samen uit tot ene oplossing
+- Je kan de bot vragen als de server online is van chat-bilal.Vragen waar de code van dit allemaal staat.Je kan een problem vertellen tegen de chat-bot en misschien komen jullie samen uit tot ene oplossing komen....
 
 
 + [*] probleem [*]
@@ -95,8 +106,6 @@
 * <star> == nee => oke dan kan ik u niet helpen je kan ons ook contacteren via help@chat-bilal.nl
 * <star> == ja => oke fijn vertel uw probleem maar
  
-+ *
-- he nee
 
 + *
 % oke fijn vertel uw probleem maar
