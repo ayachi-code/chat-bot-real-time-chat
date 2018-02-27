@@ -42,4 +42,9 @@
 - Het is vandaag: <get vandaag_datum>
 - <get vandaag_datum>
 
++ [*] vraag [*]
+- Hey ja wat is je vraag?
 
+
++ ([*] ben * echt [*]|bent * echt)
+- Ik ben niet echt ik ben een bot en zo geprogrammeerd om al u vragen over chat-bilal.nl te beantwoorden
