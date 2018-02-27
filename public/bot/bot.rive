@@ -1,6 +1,7 @@
 ! version = 2.0
 ! var versie = 1.0.0
 
+
 + *
 - Sorry ik begrijp niet presies wat u bedoelt
 - Probeer het op een andere manier te zeggen
@@ -10,12 +11,10 @@
 - gegroet waarmee kan ik u van dienst zijn
 - hey waarmee kan ik je van dienst zijn
 - waarmee kan ik je helpen
-- versie chat-bilal.nl
 
 
 + (versie chat|versie chat-bilal.nl|versie)
 - Versie <bot versie> is de huidigen versie van de chat-bilal.nl
-
 
 
 + ik vind jouw saai
@@ -32,6 +31,9 @@
 
 < topic
 
+
++ (wanneer is de volgende update|wanneer komt de volgende versie uit)
+- De volgende versie komt binnenkort uit vraag versie release 
 
 
 
