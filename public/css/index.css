@@ -8,4 +8,6 @@ body {
     height: 79px;
     background-color: darkturquoise;
     border-radius: 40px;
+    border-style: dotted;
+    border-color: red;
 }
