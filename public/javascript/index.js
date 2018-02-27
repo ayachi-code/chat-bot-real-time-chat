@@ -28,6 +28,8 @@ let de_invoer = addEventListener("keyup",(event) => {
             let chat_node = document.getElementById("chat");
             chat_node.appendChild(ellement_p);
 
+            bilal_assistent.reply(input_waarden);
+
             console.log(input_waarden)
             input_waarden = document.getElementById("de_invoer").value = "";
 
