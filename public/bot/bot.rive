@@ -4,7 +4,6 @@
 ! array ja = ja,yes,right,tuurlijk,yep
 ! array nee = nee,no,klaar,bedankt dat was het
 
-
 + set *
 - <set vandaag_datum=<star>>
 
@@ -67,12 +66,11 @@
 
 
 + [*] bedankt [*]
-- graag gedaan is er iets waarmee ik kan helpen ?
+- graag gedaan is er iets waarmee ik kan helpen
 
 + *
-% graag gedaan is er iets waarmee ik kan helpen ?
-* <star> == "ja" => oke en een fijne dag nog:)
-* <star> == "nee" => Oke waarmee kan ik u nog meer mee helpen ?
-
+% graag gedaan is er iets waarmee ik kan helpen
+* <star> == ja => oke en een fijne dag nog:)
+* <star> == nee => Ooh waarmee kan ik u van dienst zijn
 
 
