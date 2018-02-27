@@ -1,5 +1,6 @@
 let input_waarden;
 let bilal_assistent = new RiveScript();
+let de_chat_box = document.getElementsByClassName("chat");
 
 bilal_assistent.loadFile("/bot/bot.rive",gelukt_bilal_assistent,fout_bilal_assistent);
 
