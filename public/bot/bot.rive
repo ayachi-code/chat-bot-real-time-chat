@@ -53,10 +53,10 @@
 - Ik ben niet echt ik ben een bot en zo geprogrammeerd om al u vragen over chat-bilal.nl te beantwoorden
 
 + (wie bent uw|wie ben jij)
-- Ik ben lalib en ik beantwoord al je vragen over chat-bilal.nl
+- Ik ben mr bilal en ik beantwoord al je vragen over chat-bilal.nl
 
-+ wat is * naam
-- Ik ben lalib en ik beantwoord al je vragen over chat-bilal.nl
++ (wat is * naam|hoe heet *)
+- Ik ben mr bilal en ik beantwoord al je vragen over chat-bilal.nl
 
 + mooie website
 - Bedankt !
@@ -75,9 +75,9 @@
 
 
 + [*] code [*]
-- de code staat op github het is geschreven door bilal el ayachi maar welke code wilt u de code hoe ik ben geprogrammeerd of die van de chat app
+- de code staat op github het is geschreven door bilal el ayachi maar welke code wilt u de code hoe ik ben geprogrammeerd of die van de chat app dus bot of chat
 
 + *
-% de code staat op github het is geschreven door bilal el ayachi maar welke code wilt u de code hoe ik ben geprogrammeerd of die van de chat app
-* <star> == [*] bot [*] => Ooh leuk dat je geintreseert bent in mijn code link: github.com/ayachi-code/chat-bot-real-time-chat
-* <star> == [*] chat [*] => Ooh leuk dat geintreseert bent link: github.com/ayachi-code/real-time-chat
+% de code staat op github het is geschreven door bilal el ayachi maar welke code wilt u de code hoe ik ben geprogrammeerd of die van de chat app dus bot of chat
+* <star> == bot => Ooh leuk dat je geintreseert bent in mijn code link: github.com/ayachi-code/chat-bot-real-time-chat
+* <star> == chat => Ooh leuk dat geintreseert bent link: github.com/ayachi-code/real-time-chat
