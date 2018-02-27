@@ -1,6 +1,9 @@
 ! version = 2.0
 ! var versie = 1.0.0
 
++ set *
+- <set vandaag_datum=<star>>
+
 
 + *
 - Sorry ik begrijp niet presies wat u bedoelt
@@ -34,5 +37,9 @@
 
 + (wanneer is de volgende update|wanneer komt de volgende versie uit)
 - De volgende versie komt binnenkort uit vraag versie release om wat meer over de volgende update te weten
+
++ (tijd|welke dag is het vandaag|datum)
+- Het is vandaag: <get vandaag_datum>
+- <get vandaag_datum>
 
 

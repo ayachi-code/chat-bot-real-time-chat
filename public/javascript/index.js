@@ -1,6 +1,6 @@
 let input_waarden;
 let bilal_assistent = new RiveScript();
-let vandaag = Date(); 
+let vandaag_datum;
 
 bilal_assistent.loadFile("/bot/bot.rive",gelukt_bilal_assistent,fout_bilal_assistent);
 
@@ -8,6 +8,9 @@ bilal_assistent.loadFile("/bot/bot.rive",gelukt_bilal_assistent,fout_bilal_assis
 function gelukt_bilal_assistent() {
     console.log("Yay de assistent is succesvol geladen")
     bilal_assistent.sortReplies();
+    vandaag_datum = Date();
+    bilal_assistent.reply('local-user','set ' + vandaag_datum)
+
 }
 
 function fout_bilal_assistent(error) {
