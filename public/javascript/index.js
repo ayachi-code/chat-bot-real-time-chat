@@ -1,3 +1,6 @@
+let input_waarden;
+
+
 let de_invoer = addEventListener("keyup",(event) => {
     event.preventDefault();
     //Als enter word geklikt
