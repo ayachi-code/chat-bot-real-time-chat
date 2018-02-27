@@ -35,3 +35,7 @@ body {
     border-color: red;
     font-size: 20px;
 }
+
+#chat {
+    text-align: center;
+}
