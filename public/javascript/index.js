@@ -29,5 +29,7 @@ let de_invoer = addEventListener("keyup",(event) => {
             chat_node.appendChild(ellement_p);
 
             console.log(input_waarden)
+            input_waarden = document.getElementById("de_invoer").value = "";
+
     }
 });
