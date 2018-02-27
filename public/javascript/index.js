@@ -1,4 +1,5 @@
 let input_waarden;
+let bilal_assistent = new RiveScript();
 
 
 let de_invoer = addEventListener("keyup",(event) => {
