@@ -22,7 +22,7 @@ let de_invoer = addEventListener("keyup",(event) => {
 
 
             let ellement_p = document.createElement("p");
-            let ellement_p_text = document.createTextNode("Gebruiker: " + input_waarden)
+            let ellement_p_text = document.createTextNode("jij: " + input_waarden)
             ellement_p.appendChild(ellement_p_text)
 
             let chat_node = document.getElementById("chat");
