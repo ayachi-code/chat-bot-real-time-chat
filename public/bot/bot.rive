@@ -13,14 +13,14 @@
 - Sorry ik begrijp niet presies wat u bedoelt
 - Probeer het op een andere manier te zeggen
 
-+ (hallo *|hey *|hoi *|goeden morgen *|gegroet *|hello *|hi *|howdy *)
++ (hallo [*]|hey [*]|hoi [*]|goeden morgen [*]|gegroet [*]|hello [*]|hi [*]|howdy [*])
 - hallo waarmee kan ik u van dienst zijn
 - gegroet waarmee kan ik u van dienst zijn
 - hey waarmee kan ik je van dienst zijn
 - waarmee kan ik je helpen
 
 
-+ (versie chat|versie chat-bilal.nl|versie)
++ (versie chat|versie chat bilal|versie)
 - Versie <bot versie> is de huidigen versie van de chat-bilal.nl
 
 
@@ -67,9 +67,11 @@
 
 
 + [*] bedankt [*]
-- Graag gedaan kan ik je nog meer van dienst zijn?
+- graag gedaan
 
 + *
-* <star> == 
+% graag gedaan
+- <star>
+
 
 
