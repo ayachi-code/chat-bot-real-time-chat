@@ -1,5 +1,6 @@
 let input_waarden;
 let bilal_assistent = new RiveScript();
+let vandaag = Date(); 
 
 bilal_assistent.loadFile("/bot/bot.rive",gelukt_bilal_assistent,fout_bilal_assistent);
 
