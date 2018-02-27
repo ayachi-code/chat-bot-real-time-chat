@@ -6,6 +6,7 @@ bilal_assistent.loadFile("/bot/bot.rive",gelukt_bilal_assistent,fout_bilal_assis
 
 function gelukt_bilal_assistent() {
     console.log("Yay de assistent is succesvol geladen")
+    bilal_assistent.sortReplies();
 }
 
 function fout_bilal_assistent(error) {
@@ -28,9 +29,14 @@ let de_invoer = addEventListener("keyup",(event) => {
             let chat_node = document.getElementById("chat");
             chat_node.appendChild(ellement_p);
 
-            bilal_assistent.reply("local-user",input_waarden);
+            let antwoord = bilal_assistent.reply("local-user", input_waarden);
 
             let ellement_p_bot = document.createElement("p");
+            let ellement_p_bot_text = document.createTextNode("Bot: " + antwoord);
+            ellement_p_bot.appendChild(ellement_p_bot_text);
+
+            let chat_node_bot = document.getElementById("chat");
+            chat_node_bot.appendChild(ellement_p_bot);
 
             console.log(input_waarden)
             input_waarden = document.getElementById("de_invoer").value = "";
