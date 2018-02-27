@@ -1,6 +1,10 @@
 ! version = 2.0
 ! var versie = 1.0.0
 
+! array ja = ja,yes,right,tuurlijk,yep
+! array nee = nee,no,klaar,bedankt dat was het
+
+
 + set *
 - <set vandaag_datum=<star>>
 
@@ -64,4 +68,8 @@
 
 + [*] bedankt [*]
 - Graag gedaan kan ik je nog meer van dienst zijn?
+
++ *
+* <star> == 
+
 
