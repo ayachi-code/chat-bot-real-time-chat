@@ -8,6 +8,10 @@ function gelukt_bilal_assistent() {
     console.log("Yay de assistent is succesvol geladen")
 }
 
+function fout_bilal_assistent(error) {
+    console.log("Oeps er is een fout opgetreden, fout melding " + error)
+}
+
 
 
 let de_invoer = addEventListener("keyup",(event) => {
