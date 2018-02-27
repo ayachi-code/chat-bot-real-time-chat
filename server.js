@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 
-const server = app.listen(8080,() => {
-    console.log("Server word gehost op port 8080 ")
+const port = 8080;
+
+const server = app.listen(port,() => {
+    console.log("Server word gehost op port " + port)
 });
