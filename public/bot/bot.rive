@@ -67,11 +67,12 @@
 
 
 + [*] bedankt [*]
-- graag gedaan
+- graag gedaan is er iets waarmee ik kan helpen ?
 
 + *
-% graag gedaan
-- <star>
+% graag gedaan is er iets waarmee ik kan helpen ?
+* <star> == "ja" => oke en een fijne dag nog:)
+* <star> == "nee" => Oke waarmee kan ik u nog meer mee helpen ?
 
 
 
