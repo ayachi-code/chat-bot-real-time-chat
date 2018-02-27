@@ -1,1 +1,3 @@
-let de_invoer;
+let de_invoer = addEventListener("keyup",() => {
+    
+});
