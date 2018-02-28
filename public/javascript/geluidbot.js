@@ -1,0 +1,1 @@
+const geluid = new p5.Speech();
