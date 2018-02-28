@@ -41,7 +41,10 @@ body {
 }
 
 #chat-mic {
+    position: fixed;
+    right: 50%;
     width: 20px;
     height: 30px;
     background-color: red;
+    bottom: 0; 
 }
