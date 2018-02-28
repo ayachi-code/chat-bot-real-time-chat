@@ -52,7 +52,7 @@
 + (wanneer is de volgende update|wanneer komt de volgende versie uit)
 - De volgende versie komt binnenkort uit vraag versie release om wat meer over de volgende update te weten
 
-+ (tijd|welke dag is het vandaag|datum)
++ (tijd|welke dag is het vandaag|datum|[*] hoe laat is het [*])
 - Het is vandaag: <get vandaag_datum>
 - <get vandaag_datum>
 
