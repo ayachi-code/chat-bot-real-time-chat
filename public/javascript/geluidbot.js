@@ -1,7 +1,17 @@
 const geluid = new p5.Speech();
 let text_boven = document.getElementById("welkoma");
 let waar_ben_ik = false;
+let begin = true;
 
+function preload() {
+
+if (begin) {
+    $(document).ready(() => {
+        $("#chat-mic").hide();
+    });
+}
+
+}
 
 let geluid_knop = document.getElementById("geluid-m").addEventListener('click',() => {
     waar_ben_ik = true;
