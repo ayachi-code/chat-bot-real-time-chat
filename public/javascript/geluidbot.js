@@ -1,4 +1,5 @@
 const geluid = new p5.Speech();
+const geluid_luister = new p5.SpeechRec(luistera);
 let text_boven = document.getElementById("welkoma");
 let waar_ben_ik = false;
 let begin = true;
@@ -47,7 +48,7 @@ let normaal_knop = document.getElementById("geluid-normal").addEventListener('cl
 $(document).ready(() => {
     $("#chat-mic").on('mousedown mouseup',(e) => {
         if (e.type == "mousedown") {
-            //a
+            console.log("ytes");
         } 
     })
 })
