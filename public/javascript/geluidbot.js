@@ -10,5 +10,9 @@ let geluid_knop = document.getElementById("geluid-m").addEventListener('click',(
 
     if (waar > 1) {
         waar = 0;
+    } else if(waar == 0) {
+        //Normal mode
+    } else if (waar == 1) {
+        //Geluid mode
     }
 })
