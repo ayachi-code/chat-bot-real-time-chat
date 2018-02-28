@@ -1,5 +1,6 @@
 let input_waarden;
 let bilal_assistent = new RiveScript();
+const geluid2 = new p5.Speech();
 let vandaag_datum;
 
 bilal_assistent.loadFile("/bot/bot.rive",gelukt_bilal_assistent,fout_bilal_assistent);
@@ -34,6 +35,8 @@ let de_invoer = addEventListener("keyup",(event) => {
             chat_node.appendChild(ellement_p);
 
             let antwoord = bilal_assistent.reply("local-user", input_waarden);
+            geluid2.speak(antwoord);
+            
 
             let ellement_p_bot = document.createElement("p");
             let ellement_p_bot_text = document.createTextNode("Bot: " + antwoord);
