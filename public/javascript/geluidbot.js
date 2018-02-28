@@ -3,7 +3,7 @@ let text_boven = document.getElementById("welkoma");
 
 
 let geluid_knop = document.getElementById("geluid-m").addEventListener('click',() => {
-    
+    text_boven.innerText = "Mr bilal,al je vragen beantwoorden over chat-bilal.nl 'GELUID MODE' ";    
 
 
 })
