@@ -42,3 +42,12 @@ let normaal_knop = document.getElementById("geluid-normal").addEventListener('cl
         });
     }
 });
+
+
+$(document).ready(() => {
+    $("#chat-mic").on('mousedown mouseup',(e) => {
+        if (e.type == "mousedown") {
+            console.log("klik");
+        } 
+    })
+})
