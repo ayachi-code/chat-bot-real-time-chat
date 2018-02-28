@@ -46,7 +46,7 @@ let de_invoer = addEventListener("keyup",(event) => {
             chat_node_bot.appendChild(ellement_p_bot);
 
             console.log(input_waarden)
-            console.log(input_bot_praat);
+            //console.log(input_bot_praat);
             input_waarden = document.getElementById("de_invoer").value = "";
 
     }

@@ -7,6 +7,7 @@ let begin = true
 let input_bot_praat;
 
 
+
 if (begin) {
     $(document).ready(() => {
         $("#chat-mic").hide();
@@ -52,7 +53,9 @@ $(document).ready(() => {
     $("#chat-mic").on('mousedown mouseup',(e) => {
         if (e.type == "mousedown") {
             geluid_luister.start(true,false);
-        } 
+        }  else if(e.type == "mouseup") {
+            console.log("stop")
+        }
     })
 })
 
