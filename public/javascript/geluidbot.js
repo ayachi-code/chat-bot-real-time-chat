@@ -53,16 +53,16 @@ $(document).ready(() => {
     $("#chat-mic").on('mousedown mouseup',(e) => {
         if (e.type == "mousedown") {
             geluid_luister.start(true,false);
-        }  else if(e.type == "mouseup") {
-            console.log("stop")
-        }
+        } 
     })
 })
 
 function bilalprat() {
     if (geluid_luister.resultValue) {
         input_bot_praat = geluid_luister.resultString;
-        geluid.speak(input_bot_praat)
+        let antwoord = bilal_assistent.reply("local-user", input_bot_praat);
+        geluid.speak(antwoord);
+        console.log(input_bot_praat)
         return input_bot_praat;
 
     }
