@@ -1,8 +1,10 @@
 const geluid = new p5.Speech();
-const geluid_luister = new p5.SpeechRec(luistera);
+const geluid_luister = new p5.SpeechRec();
+geluid_luister.onResult = bilalprat;
 let text_boven = document.getElementById("welkoma");
 let waar_ben_ik = false;
-let begin = true;
+let begin = true
+geluid_luister.start(true,false);
 
 if (begin) {
     $(document).ready(() => {
@@ -52,3 +54,10 @@ $(document).ready(() => {
         } 
     })
 })
+
+function bilalprat() {
+    if (geluid_luister.resultValue) {
+        let input = geluid_luister.resultString;
+        console.log(input);
+    }
+}
