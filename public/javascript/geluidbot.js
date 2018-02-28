@@ -7,6 +7,7 @@ let geluid_knop = document.getElementById("geluid-m").addEventListener('click',(
     $(document).ready(() => {
         $("#de_invoer").hide();
     });    
+    let circel_hey = document.createElement("div").className = "knop_geluid"    
 
 
 })
