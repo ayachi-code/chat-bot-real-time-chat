@@ -4,6 +4,7 @@ geluid_luister.onResult = bilalprat;
 let text_boven = document.getElementById("welkoma");
 let waar_ben_ik = false;
 let begin = true
+let input_bot_praat;
 
 
 if (begin) {
@@ -57,8 +58,9 @@ $(document).ready(() => {
 
 function bilalprat() {
     if (geluid_luister.resultValue) {
-        let input = geluid_luister.resultString;
-        geluid.speak(input)
-        console.log(input);
+        input_bot_praat = geluid_luister.resultString;
+        geluid.speak(input_bot_praat)
+        return input_bot_praat;
+
     }
 }
