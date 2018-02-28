@@ -39,3 +39,9 @@ body {
 #chat {
     text-align: center;
 }
+
+#chat-mic {
+    width: 20px;
+    height: 30px;
+    background-color: red;
+}
