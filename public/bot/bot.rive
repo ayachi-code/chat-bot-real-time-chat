@@ -117,3 +117,12 @@
 - oke kan ik u helpen
 - Wat een mooie dag
 - hey man
+
+
++ [*] vrienden [*]
+* <get naam> == undefined => ja maar ik weet je naam niet hoe heeft je
+- Ja graag <get naam>
+
++ *
+% ja maar ik weet je naam niet hoe heeft je
+- <set naam=<star>> oke leuk om je te ontmoeten <get naam>
