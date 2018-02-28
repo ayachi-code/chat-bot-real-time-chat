@@ -4,7 +4,7 @@ geluid_luister.onResult = bilalprat;
 let text_boven = document.getElementById("welkoma");
 let waar_ben_ik = false;
 let begin = true
-geluid_luister.start(true,false);
+
 
 if (begin) {
     $(document).ready(() => {
@@ -50,7 +50,7 @@ let normaal_knop = document.getElementById("geluid-normal").addEventListener('cl
 $(document).ready(() => {
     $("#chat-mic").on('mousedown mouseup',(e) => {
         if (e.type == "mousedown") {
-            console.log("ytes");
+            geluid_luister.start(true,false);
         } 
     })
 })
@@ -58,6 +58,7 @@ $(document).ready(() => {
 function bilalprat() {
     if (geluid_luister.resultValue) {
         let input = geluid_luister.resultString;
+        geluid.speak(input)
         console.log(input);
     }
 }
