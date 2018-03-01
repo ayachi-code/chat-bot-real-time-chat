@@ -3,6 +3,7 @@ let bilal_assistent = new RiveScript();
 const geluid2 = new p5.Speech();
 let vandaag_datum;
 let ellement_p_text;
+let chat_node_bot;
 
 bilal_assistent.loadFile("/bot/bot.rive",gelukt_bilal_assistent,fout_bilal_assistent);
 
@@ -43,7 +44,7 @@ let de_invoer = addEventListener("keyup",(event) => {
             let ellement_p_bot_text = document.createTextNode("Bot: " + antwoord);
             ellement_p_bot.appendChild(ellement_p_bot_text);
 
-            let chat_node_bot = document.getElementById("chat");
+            chat_node_bot = document.getElementById("chat");
             chat_node_bot.appendChild(ellement_p_bot);
 
             console.log(input_waarden)
@@ -56,5 +57,6 @@ let de_invoer = addEventListener("keyup",(event) => {
 
 
 let schoon = document.getElementById("schoon").addEventListener('click',() => {
-    
+    chat_node_bot.innerText = "";
+
 });
