@@ -170,6 +170,17 @@
 
 let tip = rs.getUservar(rs.currentUser(), "tip");
 
+//Initialisser firebase :)
+  var config = {
+    apiKey: "AIzaSyB0UwJvRla7gYZ-ulwy0X8wPh4SF8y0koI",
+    authDomain: "chat-bot-vraag.firebaseapp.com",
+    databaseURL: "https://chat-bot-vraag.firebaseio.com",
+    projectId: "chat-bot-vraag",
+    storageBucket: "chat-bot-vraag.appspot.com",
+    messagingSenderId: "34046225934"
+  };
+  firebase.initializeApp(config);
+
 
 < object
 
