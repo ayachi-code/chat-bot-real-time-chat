@@ -4,7 +4,7 @@ const geluid2 = new p5.Speech();
 let vandaag_datum;
 let ellement_p_text;
 let chat_node_bot;
-let ref;
+let plek;
 
 
 function setup() {
