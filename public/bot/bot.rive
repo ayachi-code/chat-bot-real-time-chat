@@ -165,5 +165,14 @@
 % ooh oke kunt u nu uw type zeggen alstublieft
 - <set tip=<star>> Bedankt voor uw tip dit is uw tip:<get tip> <call>verstuur</call>
 
+> object verstuur javascript 
+
+
+let tip = rs.getUservar(rs.currentUser(), "tip");
+console.log(tip)
+
+
+< object
+
 
 
