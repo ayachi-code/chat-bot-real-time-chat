@@ -10,7 +10,7 @@
 + ik heet *
 - <set naam=<star>> oke leuk om je te ontmoeten <get naam>
 
-+ ([*] hoe heet ik [*]|[*] hoe ik heet[*])
++ ([*] hoe heet ik [*]|[*] hoe ik heet[*]|wat is mijn naam [*])
 * <get naam> == undefined => hey we hebben elkaar nooit voorgesteld, trouwens ik heet bilal en jij
 - hey jij heet <get naam> he ;)
 
