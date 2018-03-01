@@ -173,7 +173,7 @@ let data = {
     de_tip: rs.getUservar(rs.currentUser(), "tip")
 }
 
-plek.push(data)
+plek.push("data")
 
 
 < object
