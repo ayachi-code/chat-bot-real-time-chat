@@ -76,6 +76,15 @@ function bilalprat() {
         let chat_node2 = document.getElementById("chat");
         chat_node2.appendChild(ellement_p2);
         //console.log(input_bot_praat)
+        //Maakt een P tag voor de Bot
+        let ellement_p_bot2 = document.createElement("p");
+        //Set de text gelijk antwoord
+        let ellement_p_bot_text2 = document.createTextNode("Bot: " + antwoord);
+        //Combineerd het
+        ellement_p_bot2.appendChild(ellement_p_bot_text2);
+        //Zet het in de chat div
+        let chat_node_bot2 = document.getElementById("chat");
+        chat_node_bot2.appendChild(ellement_p_bot2);
         return input_bot_praat;
 
     }
