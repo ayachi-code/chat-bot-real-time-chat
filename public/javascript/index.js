@@ -19,7 +19,7 @@ function setup() {
       firebase.initializeApp(config);
 
       let database = firebase.database()
-      ref = database.ref("tips")
+      plek = database.ref("tips")
       
 }
 
