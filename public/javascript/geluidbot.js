@@ -53,6 +53,9 @@ $(document).ready(() => {
     $("#chat-mic").on('mousedown mouseup',(e) => {
         if (e.type == "mousedown") {
             geluid_luister.start(true,false);
+            document.getElementById("chat-mic").style.borderStyle = "dashed";
+            document.getElementById("chat-mic").style.borderColor = "darkblue";
+            document.getElementById("chat-mic").style.borderRadius = "180px";
         } 
     })
 })
