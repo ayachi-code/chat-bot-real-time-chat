@@ -159,29 +159,14 @@
 
 
 + ([*] tip [*]|[*] verbetering [*]|ik heb een * tip)
-- ooh oke kunt u nu uw type zeggen alstublieft
+- ooh oke kunt u nu uw tip zeggen alstublieft
 
 + *
-% ooh oke kunt u nu uw type zeggen alstublieft
+% ooh oke kunt u nu uw tip zeggen alstublieft
 - <set tip=<star>> Bedankt voor uw tip dit is uw tip:<get tip> <call>verstuur</call>
 
 > object verstuur javascript 
 
-
-//Initialisser firebase :)
-  let config = {
-    apiKey: "AIzaSyB0UwJvRla7gYZ-ulwy0X8wPh4SF8y0koI",
-    authDomain: "chat-bot-vraag.firebaseapp.com",
-    databaseURL: "https://chat-bot-vraag.firebaseio.com",
-    projectId: "chat-bot-vraag",
-    storageBucket: "chat-bot-vraag.appspot.com",
-    messagingSenderId: "34046225934"
-  };
-  firebase.initializeApp(config);
- 
-
-  let database = firebase.database()
-  let plek = database.ref("tips");
 
 //Object met de data die ik wil sturen
 let data = {

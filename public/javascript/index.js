@@ -4,6 +4,26 @@ const geluid2 = new p5.Speech();
 let vandaag_datum;
 let ellement_p_text;
 let chat_node_bot;
+let ref;
+
+
+function setup() {
+    let config = {
+        apiKey: "AIzaSyB0UwJvRla7gYZ-ulwy0X8wPh4SF8y0koI",
+        authDomain: "chat-bot-vraag.firebaseapp.com",
+        databaseURL: "https://chat-bot-vraag.firebaseio.com",
+        projectId: "chat-bot-vraag",
+        storageBucket: "chat-bot-vraag.appspot.com",
+        messagingSenderId: "34046225934"
+      };
+      firebase.initializeApp(config);
+
+      let database = firebase.database()
+      ref = database.ref("tips")
+      
+}
+
+
 
 bilal_assistent.loadFile("/bot/bot.rive",gelukt_bilal_assistent,fout_bilal_assistent);
 
