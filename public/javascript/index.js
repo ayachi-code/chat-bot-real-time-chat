@@ -52,3 +52,9 @@ let de_invoer = addEventListener("keyup",(event) => {
 
     }
 });
+
+
+
+let schoon = document.getElementById("schoon").addEventListener('click',() => {
+    
+});
