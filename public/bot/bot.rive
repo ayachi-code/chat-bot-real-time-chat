@@ -178,14 +178,17 @@
     messagingSenderId: "34046225934"
   };
   firebase.initializeApp(config);
+ 
+
+  let database = firebase.database()
+  let plek = database.ref("tips");
 
 //Object met de data die ik wil sturen
 let data = {
     de_tip: rs.getUservar(rs.currentUser(), "tip")
 }
 
-console.log(data.de_tip)
-
+plek.push(data)
 
 
 < object
