@@ -71,3 +71,11 @@ body {
     width: 60px;
     height: 60px;
 }
+
+#schoon {
+    border-radius: 40px;
+    background-color: lightgreen;
+    color: red;
+    border-style: dotted;
+    border-color: darkcyan;
+}
