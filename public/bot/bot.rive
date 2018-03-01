@@ -158,6 +158,12 @@
 - Ik ben best wel jong
 
 
-+ ([*] tip|[*] verbetering [*]|ik heb een * tip|)
-- oke
++ ([*] tip|[*] verbetering [*]|ik heb een * tip)
+- ooh oke kunt u nu uw type zeggen alstublieft
+
++ *
+% ooh oke kunt u nu uw type zeggen alstublieft
+- <set tip=<star>> Bedankt voor uw tip dit is uw tip:<get tip> <call>verstuur</call>
+
+
 
