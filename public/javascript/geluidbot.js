@@ -57,7 +57,8 @@ $(document).ready(() => {
             document.getElementById("chat-mic").style.borderColor = "darkblue";
             document.getElementById("chat-mic").style.borderRadius = "180px";
         } else if(e.type == "mouseup") {
-           console.log("los laten")
+            document.getElementById("chat-mic").style.borderColor = "gainsboro";
+            document.getElementById("chat-mic").style.borderRadius = "0px";
         }
     })
 })
