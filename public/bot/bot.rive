@@ -147,3 +147,10 @@
 + (mr bilal|mister bilal|meneer bilal|bot|meneer bot|meneer)
 * <get naam> == undefined => Hallo waarmee kan ik je van dienst zijn
 * <get naam> ne undefined => Hallo <get naam> waarmee kan ik je van dienst zijn :)
+
+
+
++ ([*] bent de beste [*])
+- Bedankt jij ook
+
+
