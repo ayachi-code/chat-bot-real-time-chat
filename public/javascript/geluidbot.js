@@ -68,7 +68,12 @@ function bilalprat() {
         input_bot_praat = geluid_luister.resultString;
         let antwoord = bilal_assistent.reply("local-user", input_bot_praat);
         geluid.speak(antwoord);
-        console.log(input_bot_praat)
+        let ellement_p2 = document.createElement("p");
+        let ellement_p_text2 = document.createTextNode("jij: " + input_bot_praat)
+        ellement_p2.appendChild(ellement_p_text2)
+        let chat_node2 = document.getElementById("chat");
+        chat_node2.appendChild(ellement_p2);
+        //console.log(input_bot_praat)
         return input_bot_praat;
 
     }
