@@ -11,6 +11,8 @@ let input_bot_praat;
 if (begin) {
     $(document).ready(() => {
         $("#micro").hide();
+        $(".invoer_mic_p").hide();
+
     });
 }
 
@@ -22,11 +24,13 @@ let geluid_knop = document.getElementById("geluid-m").addEventListener('click',(
     if (waar_ben_ik) {
     $(document).ready(() => {
         $("#de_invoer").hide();
+        $(".invoer_mic_p").hide();
     });    
     } 
     if(waar_ben_ik) {
         $(document).ready(() => {
             $("#micro").show();
+            $(".invoer_mic_p").show();
         });
     }
 
@@ -39,11 +43,13 @@ let normaal_knop = document.getElementById("geluid-normal").addEventListener('cl
     if (!waar_ben_ik) {
     $(document).ready(() => {
         $("#de_invoer").show();
+        $(".invoer_mic_p").show();
     });
     } 
     if(!waar_ben_ik) {
         $(document).ready(() => {
             $("#micro").hide();
+            $(".invoer_mic_p").hide();
         });
     }
 });
