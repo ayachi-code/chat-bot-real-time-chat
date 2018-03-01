@@ -135,3 +135,11 @@
 
 + (ben je een man of een vrouw|ben je een jongen|bent * een jongen|ben je een *)
 - Nee ik ben geen van beiden ik ben een bot ik heb een stem van een man maar ja.Dus kortom ik ben geen mens maar een bot.
+
++ wat is er [*]
+- er is helemaal niks met mij aan de hand
+
++ *
+% er is helemaal niks met mij aan de hand
+* <star> == jawel => nietes
+* <star> ne jawel => Oke goed dan
