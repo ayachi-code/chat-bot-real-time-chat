@@ -48,3 +48,8 @@ body {
     background-image: url("/css/assest/microphom.png");
     bottom: 0; 
 }
+
+
+#geluid-m {
+    border-radius: 40px;
+}
