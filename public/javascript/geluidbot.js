@@ -50,7 +50,7 @@ let normaal_knop = document.getElementById("geluid-normal").addEventListener('cl
 
 
 $(document).ready(() => {
-    $("#chat-mic").on('mousedown mouseup',(e) => {
+    $("#micro").on('mousedown mouseup',(e) => {
         if (e.type == "mousedown") {
             geluid_luister.start(true,false);
             document.getElementById("chat-mic").style.borderStyle = "dashed";
