@@ -22,6 +22,7 @@
 + *
 - Sorry ik begrijp niet presies wat u bedoelt
 - Probeer het op een andere manier te zeggen
+- Ik snap niet wat uw bedoelt
 
 + (hallo [*]|hey [*]|hoi [*]|goeden morgen [*]|gegroet [*]|hello [*]|hi [*]|howdy [*])
 - hallo waarmee kan ik u van dienst zijn
@@ -126,3 +127,7 @@
 + *
 % ja maar ik weet je naam niet hoe heeft je
 - <set naam=<star>> oke leuk om je te ontmoeten <get naam>
+
+
++ ([*] je [*] rappen|beat boxen)
+- Oke dit heb ik voor je man: Boem ba ik kom uit de computer nah ik ben de beste assistent nah dus spreek met uw man.En dit was de beste beste rap die er bestaat
