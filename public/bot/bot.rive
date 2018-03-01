@@ -11,7 +11,7 @@
 - <set naam=<star>> oke leuk om je te ontmoeten <get naam>
 
 + ([*] hoe heet ik [*]|[*] hoe ik heet[*]|wat is mijn naam [*])
-* <get naam> == undefined => hey we hebben elkaar nooit voorgesteld, trouwens ik heet bilal en jij
+* <get naam> == undefined => hey we hebben elkaar nooit voorgesteld, trouwens ik heet mister bilal bot en jij
 - hey jij heet <get naam> he ;)
 
 
@@ -143,3 +143,7 @@
 % er is helemaal niks met mij aan de hand
 * <star> == jawel => nietes
 * <star> ne jawel => Oke goed dan
+
++ (mr bilal|mister bilal|meneer bilal|bot|meneer bot|meneer)
+* <get naam> == undefined => Hallo waarmee kan ik je van dienst zijn
+* <get naam> ne undefined => Hallo <get naam> waarmee kan ik je van dienst zijn :)
