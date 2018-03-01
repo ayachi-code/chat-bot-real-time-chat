@@ -168,10 +168,8 @@
 > object verstuur javascript 
 
 
-let tip = rs.getUservar(rs.currentUser(), "tip");
-
 //Initialisser firebase :)
-  var config = {
+  let config = {
     apiKey: "AIzaSyB0UwJvRla7gYZ-ulwy0X8wPh4SF8y0koI",
     authDomain: "chat-bot-vraag.firebaseapp.com",
     databaseURL: "https://chat-bot-vraag.firebaseio.com",
@@ -180,6 +178,14 @@ let tip = rs.getUservar(rs.currentUser(), "tip");
     messagingSenderId: "34046225934"
   };
   firebase.initializeApp(config);
+
+//Object met de data die ik wil sturen
+let data = {
+    de_tip: rs.getUservar(rs.currentUser(), "tip")
+}
+
+console.log(data.de_tip)
+
 
 
 < object
