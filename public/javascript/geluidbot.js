@@ -53,12 +53,8 @@ $(document).ready(() => {
     $("#micro").on('mousedown mouseup',(e) => {
         if (e.type == "mousedown") {
             geluid_luister.start(true,false);
-            document.getElementById("chat-mic").style.borderStyle = "dashed";
-            document.getElementById("chat-mic").style.borderColor = "darkblue";
-            document.getElementById("chat-mic").style.borderRadius = "180px";
         } else if(e.type == "mouseup") {
-            document.getElementById("chat-mic").style.borderColor = "gainsboro";
-            document.getElementById("chat-mic").style.borderRadius = "0px";
+            console.log("Hij laat los :) ");
         }
     })
 })
