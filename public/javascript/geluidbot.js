@@ -10,7 +10,7 @@ let input_bot_praat;
 
 if (begin) {
     $(document).ready(() => {
-        $("#chat-mic").hide();
+        $("#micro").hide();
     });
 }
 
@@ -26,7 +26,7 @@ let geluid_knop = document.getElementById("geluid-m").addEventListener('click',(
     } 
     if(waar_ben_ik) {
         $(document).ready(() => {
-            $("#chat-mic").show();
+            $("#micro").show();
         });
     }
 
@@ -43,7 +43,7 @@ let normaal_knop = document.getElementById("geluid-normal").addEventListener('cl
     } 
     if(!waar_ben_ik) {
         $(document).ready(() => {
-            $("#chat-mic").hide();
+            $("#micro").hide();
         });
     }
 });
